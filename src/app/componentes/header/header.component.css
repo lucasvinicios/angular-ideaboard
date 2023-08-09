@@ -1,0 +1,16 @@
+.cabecalho {
+  background: url(/assets/images/fundo-cabecalho.png);
+  background-size: cover;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 70px;
+}
+
+.cabecalho p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  font-size: 40px;
+}

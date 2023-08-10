@@ -1,0 +1,48 @@
+.criar-ideias {
+  padding: 2rem 0;
+}
+
+.criar-ideias form {
+  background: rgb(98, 171, 255);
+  border: none;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px ;
+  padding: 2rem;
+}
+
+.criar-ideias form .input{
+  border: none;
+  height: 40px;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 0.5rem 0 2rem;
+}
+
+.criar-ideias form label {
+  color: #123a7a;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.radio-modelo label {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.acoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.botao {
+  margin: 5px;
+  margin-top: 10px;
+  width: 200px;
+}

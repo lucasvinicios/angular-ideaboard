@@ -8,19 +8,24 @@ import { Ideia } from '../ideia';
 })
 export class ListarIdeiasComponent implements OnInit {
 
-  listaIdeias: Ideia[] = []
-  // listaIdeias: Ideia[] = [
-  // {
-  //   id: 0,
-  //   ideia: 'Teste',
-  //   descricao: 'Teste',
-  // },
-  // {
-  //   id: 0,
-  //   ideia: 'Teste',
-  //   descricao: 'Teste',
-  // },
-// ]
+  // listaIdeias: Ideia[] = []
+  listaIdeias: Ideia[] = [
+  {
+    id: 0,
+    ideia: 'Teste',
+    descricao: 'Teste',
+  },
+  {
+    id: 0,
+    ideia: 'Teste',
+    descricao: 'Teste',
+  },
+  {
+    id: 0,
+    ideia: 'Teste',
+    descricao: 'Teste',
+  },
+]
 
   constructor() { }
 

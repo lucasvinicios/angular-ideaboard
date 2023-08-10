@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -12,8 +13,32 @@
   margin-left: auto;
 }
 
+.botao {
+  background-color: #154580;;
+  border: 2px solid #154580;;
+  border-radius: 10px;
+  max-width: 250px;
+  color: white;
+  padding: 1rem;
+  margin: 0 auto;
+  transition: 0.5s ease;
+  font-weight: 550;
+}
+
+.botao:hover{
+  border: 2px solid #84EEC1;
+  color: #84EEC1;
+}
+
 .header {
   margin: 1rem auto 2rem;
+}
+
+h2 {
+  text-align: center;
+  color: #154580;
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 @media (min-width: 576px) {

@@ -7,6 +7,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { ListarIdeiasComponent } from './componentes/ideias/listar-ideias/listar-ideias.component';
 import { IdeiaComponent } from './componentes/ideias/ideia/ideia.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CriarIdeiaComponent } from './componentes/ideias/criar-ideia/criar-ideia.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
     HeaderComponent,
     FooterComponent,
     ListarIdeiasComponent,
-    IdeiaComponent
+    IdeiaComponent,
+    CriarIdeiaComponent
   ],
   imports: [
     BrowserModule,
